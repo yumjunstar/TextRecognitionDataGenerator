@@ -45,7 +45,7 @@ class GeneratorFromStrings:
         image_mode: str = "RGB",
         output_bboxes: int = 0,
         rtl: bool = False,
-        fail_retry_count: int = 100,
+        fail_retry_count: int = 10,
         debug = False,
     ):
         self.count = count
